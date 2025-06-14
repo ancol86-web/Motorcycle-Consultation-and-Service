@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #1e3d59;
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+}
+
+nav {
+  background: #324a5f;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  position: relative;
+  height: 300px;
+  background: linear-gradient(to right, #324a5fcc, #1e3d59cc), url('background.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h2 {
+  color: #1e3d59;
+  margin-bottom: 10px;
+}
+
+ul.services {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.services li {
+  background: url('data:image/svg+xml;utf8,<svg fill="%231e3d59" height="14" viewBox="0 0 16 16" width="14" xmlns="http://www.w3.org/2000/svg"><path d="M13.485 1.929a.5.5 0 0 1 .017.708l-7 7a.5.5 0 0 1-.708.017l-3-3a.5.5 0 0 1 .708-.708L6 8.293l6.646-6.647a.5.5 0 0 1 .708-.017z"/></svg>') no-repeat left center;
+  padding-left: 25px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.services img {
+  width: 100%;
+  margin: 10px 0 25px 0;
+  border-radius: 8px;
+}
+
+.review-item {
+  border-left: 4px solid #1e3d59;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  background: #f9f9f9;
+  border-radius: 6px;
+}
+
+.review-item strong {
+  color: #1e3d59;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-btn {
+  background: #44484b;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.submit-btn:hover {
+  background: #324a5f;
+}
+
+footer {
+  background: #1e3d59;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.map, .form-section, .contact, .reviews {
+  margin-top: 40px;
+}
+
+.section-title {
+  margin-top: 40px;
+}

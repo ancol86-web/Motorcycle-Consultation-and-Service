@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Konsultan & Service Motor ITS</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: #1e3d59;
+      color: #fff;
+      padding: 30px;
+      text-align: center;
+    }
+
+    nav {
+      background: #324a5f;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      position: relative;
+      height: 300px;
+      background: linear-gradient(to right, #324a5fcc, #1e3d59cc), url('background.jpg') center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+    }
+
+    .hero h1 {
+      font-size: 2.8rem;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    h2 {
+      color: #1e3d59;
+      margin-bottom: 10px;
+    }
+
+    ul.services {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul.services li {
+      background: url('data:image/svg+xml;utf8,<svg fill="%231e3d59" height="14" viewBox="0 0 16 16" width="14" xmlns="http://www.w3.org/2000/svg"><path d="M13.485 1.929a.5.5 0 0 1 .017.708l-7 7a.5.5 0 0 1-.708.017l-3-3a.5.5 0 0 1 .708-.708L6 8.293l6.646-6.647a.5.5 0 0 1 .708-.017z"/></svg>') no-repeat left center;
+      padding-left: 25px;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    .services img {
+      width: 100%;
+      margin: 10px 0 25px 0;
+      border-radius: 8px;
+    }
+
+    .review-item {
+      border-left: 4px solid #1e3d59;
+      padding: 10px 15px;
+      margin-bottom: 15px;
+      background: #f9f9f9;
+      border-radius: 6px;
+    }
+
+    .review-item strong {
+      color: #1e3d59;
+    }
+
+    input, textarea, select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .submit-btn {
+      background: #44484b;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    .submit-btn:hover {
+      background: #324a5f;
+    }
+
+    footer {
+      background: #1e3d59;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    .map, .form-section, .contact, .reviews {
+      margin-top: 40px;
+    }
+
+    .section-title {
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Konsultan & Service Motor ITS</h1>
+    <p>Solusi Profesional & Spesialis Service Sepeda Motor</p>
+  </header>
+
+  <nav>
+    <a href="#layanan">Layanan</a>
+    <a href="#pendaftaran">Daftar Servis</a>
+    <a href="#pricelist">Price List</a>
+    <a href="#lokasi">Lokasi</a>
+    <a href="#kontak">Kontak</a>
+    <a href="#saran">Saran Anda</a>
+  </nav>
+
+  <div class="hero">
+    <h1>Optimalkan Performa Kendaraanmu</h1>
+  </div>
+
+  <div class="container">
+    <section id="layanan">
+      <h2>LAYANAN SEPEDA MOTOR</h2>
+      <ul class="services">
+        <li>Konsultasi Perawatan Sepeda Motor</li><img src="konsul.jpg" alt="Konsultasi Teknisi">
+        <li>Servis Sepeda Motor Komprehensif</li><img src="komprehensif.jpg" alt="Servis Komprehensif">
+        <li>Optimasi Kinerja Kendaraan</li><img src="kinerja montor.jpg" alt="Optimasi Kinerja">
+        <li>Perbaikan Mesin</li><img src="egine.jpg" alt="Perbaikan Mesin">
+        <li>Optimasi Sistem Pengereman</li><img src="pengeriman.jpg" alt="Sistem Pengereman">
+        <li>Perbaikan CVT</li><img src="cvt.jpg" alt="Servis CVT">
+        <li>Peningkatan Suspensi</li><img src="suspensi.jpg" alt="Suspensi">
+        <li>Perbaikan Kelistrikan</li><img src="kelistrikan.jpg" alt="Kelistrikan">
+      </ul>
+    </section>
+
+    <section id="pricelist" class="section-title">
+      <h2>DAFTAR HARGA SERVICE</h2>
+      <ul class="services">
+        <li>Servis Komprehensif - Rp150.000</li>
+        <li>Perbaikan Mesin - Rp300.000</li>
+        <li>Servis Rem - Rp80.000</li>
+        <li>Servis Suspensi - Rp50.000</li>
+        <li>Kelistrikan - Rp80.000</li>
+        <li>Ganti Oli - Rp15.000</li>
+        <li>Ganti Busi - Rp15.000</li>
+        <li>Throttle Body - Rp30.000</li>
+        <li>Pasang Vanbelt - Rp35.000</li>
+        <li>Pasang Roller - Rp35.000</li>
+        <li>Servis Injeksi - Rp60.000</li>
+        <li>Servis CVT - Rp60.000</li>
+        <li><strong>Paket CVT 1</strong> (CVT, Injeksi, Throttle Body) - <strong>Rp130.000</strong></li>
+      </ul>
+    </section>
+
+    <section id="pendaftaran" class="form-section">
+      <h2>Formulir Pendaftaran Service</h2>
+      <form id="serviceForm">
+        <input type="text" name="nama" placeholder="Nama Lengkap" required />
+        <input type="tel" name="telepon" placeholder="Nomor Telepon" required />
+
+        <label for="lokasiServis"><strong>Lokasi Servis:</strong></label>
+        <select name="lokasiServis" id="lokasiServis" required>
+          <option value="">Pilih Lokasi Servis</option>
+          <option value="diambil">Motor diambil ke rumah/kos</option>
+          <option value="antar">Saya antar ke bengkel/basecamp</option>
+        </select>
+
+        <textarea name="alamat" placeholder="Alamat lengkap rumah/kos" rows="3" required></textarea>
+
+        <label for="kebutuhan"><strong>Kebutuhan:</strong></label>
+        <select name="kebutuhan" id="kebutuhan" required>
+          <option value="">Pilih Kebutuhan Anda</option>
+          <option value="konsultasi">Hanya Konsultasi Kerusakan & Penanganan</option>
+          <option value="servis">Langsung Servis</option>
+        </select>
+        <select name="jenisServis" required>
+          <option value="">Pilih Jenis Servis</option>
+          <option value="ganti oli">Ganti Oli - Rp15.000</option>
+          <option value="ganti busi">Ganti Busi - Rp15.000</option>
+          <option value="throttle body">Throttle Body - Rp30.000</option>
+          <option value="pasang vanbelt">Pasang Vanbelt - Rp35.000</option>
+          <option value="pasang roller">Pasang Roller - Rp35.000</option>
+          <option value="servis injeksi">Servis Injeksi - Rp60.000</option>
+          <option value="komprehensif">Servis Komprehensif - Rp150.000</option>
+          <option value="mesin">Perbaikan Mesin - Rp300.000</option>
+          <option value="rem">Servis Rem - Rp80.000</option>
+          <option value="cvt">Servis CVT - Rp60.000</option>
+          <option value="suspensi">Servis Suspensi - Rp50.000</option>
+          <option value="listrik">Kelistrikan - Rp80.000</option>
+          <option value="paket cvt 1">Paket CVT 1 - Rp180.000</option>
+        </select>
+        <textarea name="catatan" rows="4" placeholder="Catatan Tambahan (opsional)"></textarea>
+        <button type="submit" class="submit-btn">Daftar Sekarang</button>
+      </form>
+    </section>
+
+    <div class="section" id="lokasi">
+      <h2>LOKASI KAMI</h2>
+      <p>Kami berada di area kampus <strong>Institut Teknologi Sepuluh Nopember (ITS)</strong>, Surabaya.</p>
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.254191603614!2d112.79500687594399!3d-7.276801971608485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fbfe73051f3b%3A0xa3ddba33d0b2c58e!2sInstitut%20Teknologi%20Sepuluh%20Nopember%20(ITS)!5e0!3m2!1sen!2sid!4v1700000000000"
+        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+
+    <section id="kontak" class="contact">
+      <h2>Kontak</h2>
+      <p>Email: <a href="mailto:autoprimeservis@gmail.com">autoprimeservis@gmail.com</a></p>
+      <p>Instagram: <a href="https://www.instagram.com/autoprime_servis" target="_blank">@autoprime_servis</a></p>
+      <p>Atau tinggalkan ulasan Anda langsung melalui form di bawah.</p>
+    </section>
+
+    <section id="saran" class="form-section">
+      <h2>Hubungi Kami untuk Saran atau Ulasan</h2>
+      <form id="saranForm">
+        <input type="text" name="nama" placeholder="Nama Anda" required />
+        <input type="email" name="email" placeholder="Email Anda" required />
+        <textarea name="saran" rows="5" placeholder="Tuliskan saran atau ulasan..." required></textarea>
+        <button type="submit" class="submit-btn">Kirim</button>
+      </form>
+    </section>
+
+    <section class="reviews">
+      <h2>Ulasan Pelanggan</h2>
+      <div class="review-item">
+        <p><strong>Rizky, pelanggan</strong> — Motor saya sempat mogok di jalan dan bingung harus bagaimana. Untungnya ketemu jasa servis motor panggilan ini. Timnya datang cepat dan sangat profesional. Terima kasih banyak untuk Autoprime yang sudah bantu dengan ramah dan cekatan. Motor saya jadi kembali normal dan enak dipakai. <strong>Recommended! 🔥🔧</strong></p>
+      </div>
+      <div class="review-item">
+        <p><strong>Siti Rahma, pelanggan</strong> — Sangat puas dengan pelayanan tim Autoprime. Mereka ramah, teliti, dan menjelaskan kerusakan motor saya dengan sangat baik. Sekarang motor saya kembali nyaman dan irit bensin.</p>
+      </div>
+      <div class="review-item">
+        <p><strong>Andi Prasetyo, pelanggan</strong> — Saya coba paket CVT 1, dan hasilnya luar biasa! Tarikan motor jadi enteng banget. Harganya juga terjangkau. Pokoknya bakal langganan terus di sini!</p>
+      </div>
+      <div class="review-item">
+        <p><strong>Lina Wulandari, pelanggan</strong> — Booking online-nya cepat dan teknisinya datang tepat waktu. Sangat membantu buat mahasiswa yang sibuk kayak saya. Servisnya rapi dan profesional!</p>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Konsultan & Servis Motor ITS. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const formURL = 'https://shorturl.at/UTz7a';
+
+    document.getElementById("serviceForm").addEventListener("submit", function (e) {
+      e.preventDefault();
+      const formData = new FormData(this);
+      formData.append("formType", "service");
+
+      fetch(formURL, {
+        method: "POST",
+        body: formData,
+      })
+        .then((res) => res.text())
+        .then((data) => {
+          alert("Formulir pendaftaran berhasil dikirim!");
+          this.reset();
+        })
+        .catch((err) => alert("Terjadi kesalahan: " + err));
+    });
+
+    document.getElementById("saranForm").addEventListener("submit", function (e) {
+      e.preventDefault();
+      const formData = new FormData(this);
+      formData.append("formType", "ulasan");
+
+      fetch(formURL, {
+        method: "POST",
+        body: formData,
+      })
+        .then((res) => res.text())
+        .then((data) => {
+          alert("Ulasan berhasil dikirim!");
+          this.reset();
+        })
+        .catch((err) => alert("Terjadi kesalahan: " + err));
+    });
+  </script>
+</body>
+</html>
